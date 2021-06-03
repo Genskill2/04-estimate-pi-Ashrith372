@@ -48,7 +48,7 @@ float mc_pi (int i)
     if((x*x + y*y) <=1)
       d+=1;
   }
-  d = d*4;
+  d = 4*d;
   return (float)d / i;
 }
 
